@@ -120,6 +120,10 @@ body {
         color: white;
         font-size: 40px;
     }
+    .logo img{
+        margin-top:auto;
+        margin-bottom:4px;
+    }
 
 .con-right {
     float: right;
