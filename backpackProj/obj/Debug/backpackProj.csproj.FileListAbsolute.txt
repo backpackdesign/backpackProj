@@ -156,3 +156,7 @@ C:\Users\Lenovo\source\repos\backpack\backpackProj\obj\Debug\backpackProj.csproj
 C:\Users\Lenovo\source\repos\backpack\backpackProj\obj\Debug\backpackProj.csproj.CopyComplete
 C:\Users\Lenovo\source\repos\backpack\backpackProj\obj\Debug\backpackProj.dll
 C:\Users\Lenovo\source\repos\backpack\backpackProj\obj\Debug\backpackProj.pdb
+C:\Users\Merve\Source\Repos\backpackProj\backpackProj\obj\Debug\backpackProj.csprojAssemblyReference.cache
+C:\Users\Merve\Source\Repos\backpackProj\backpackProj\obj\Debug\backpackProj.csproj.CoreCompileInputs.cache
+C:\Users\Merve\Source\Repos\backpackProj\backpackProj\obj\Debug\backpackProj.dll
+C:\Users\Merve\Source\Repos\backpackProj\backpackProj\obj\Debug\backpackProj.pdb
