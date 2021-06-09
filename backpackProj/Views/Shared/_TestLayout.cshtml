@@ -2,18 +2,168 @@
 @{
     Layout = null;
 }
-
-<!DOCTYPE html>
-
+<!DOCTYPE HTML>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>_TestLayout</title>
+    <title>Backpack</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="~/web/css/style.css" type="text/css" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="~/web/css/slider.css" rel="stylesheet" type="text/css" media="all" />
+
+    <script src="~/web/js/jquery.min.js"></script>
+    <script src="~/web/js/responsiveslides.min.js"></script>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+
+
+
+
+
+
+    <script>
+        // You can also use "$(window).load(function() {"
+        $(function () {
+            // Slideshow 1
+            $("#slider1").responsiveSlides({
+                auto: true,
+                nav: true,
+                speed: 500,
+                namespace: "callbacks",
+            });
+        });
+    </script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </head>
 <body>
-    Sayfanın üstündeki sabit alan!
-    <div> 
-        @RenderBody()
+    <div class="header">
+        <div class="wrap">
+            <div class="logo"><a href="/Default/Index/"><img src="~/web/images/logo1.png" alt="" width="204px" height="149px" /></a></div>
+            <div class="con-right">
+
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+
+            <div class="container h-100">
+                <div class="d-flex justify-content-end h-100">
+                    <div class="searchbar">
+                        <input class="search_input" type="text" name="" placeholder="Search...">
+                        <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
+
+    <div class="header-bottom">
+
+
+        <div class="wrap">
+
+            <ul id="nav">
+
+                <li><a href="/Default/Index/">Anasayfa</a></li>
+                <li><a class="hsubs" href="/About/Index/">Hakkımızda</a></li>
+                <li>
+                    <a class="hsubs" href="#">Rehber</a>
+                    <ul class="subs">
+                        <li><a href="#">Oteller</a></li>
+                        <li><a href="#">Restoranlar</a></li>
+                        <li><a href="#">Müzeler</a></li>
+                    </ul>
+                </li>
+                <li><a class="hsubs" href="/Blog/Index/">Blog</a></li>
+                <li><a href="/Login/Login/">Admin</a></li>
+            </ul>
+        </div>
+    </div>
+
+    
+
+    <div class="content">
+
+        @RenderBody()
+
+
+
+        <footer class="footer-caner2">
+
+            <div class="footer-left">
+
+
+
+                <a href="#">Ana Sayfa</a>
+                -
+                <a href="#">Hakkımızda</a>
+                -
+                <a href="#">S.S.S</a>
+                -
+                <a href="#">İletişim</a>
+
+
+            </div>
+
+
+            <div class="footer-center">
+
+                <div>
+                    <i class="fa fa-map-marker"></i>
+
+                    <span>Merkez 23000</span> Elazığ, Türkiye
+                </div>
+
+
+                <div>
+                    <i class="fa fa-phone"></i>
+
+                    +90 555 555 55 55
+                </div>
+
+
+                <div>
+                    <i class="fa fa-envelope"></i>
+
+                    <a href="">backpackdesign0@gmail.com</a>
+                </div>
+
+            </div>
+
+
+            <div class="footer-right">
+
+                <span>Hakkımızda</span>
+
+
+                <div class="footer-icons">
+                    <a href="http://facebook.com/share?url=@HttpContext.Current.Request.Url.AbsoluteUri.Replace(HttpContext.Current.Request.Url.PathAndQuery, " / ")@Request.RawUrl.ToString().Split('/')"><i class="fa fa-facebook"></i></a>
+                    <a href="http://twitter.com/share?url=@HttpContext.Current.Request.Url.AbsoluteUri.Replace(HttpContext.Current.Request.Url.PathAndQuery, " / ")@Request.RawUrl.ToString().Split('/')"><i class="fa fa-twitter"></i></a>
+                    <a href="http://linkedin.com/share?url=@HttpContext.Current.Request.Url.AbsoluteUri.Replace(HttpContext.Current.Request.Url.PathAndQuery, " / ")@Request.RawUrl.ToString().Split('/')"><i class="fa fa-linkedin"></i></a>
+                    <a href="http://github.com/backpackdesign " / ")@Request.RawUrl.ToString().Split('/')"><i class="fa fa-github"></i></a>
+                </div>
+
+            </div>
+
+        </footer>
+
+    </div>
+
 </body>
 </html>
