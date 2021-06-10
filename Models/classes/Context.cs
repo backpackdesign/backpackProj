@@ -14,6 +14,8 @@ namespace backpackProj.Models.classes
         public DbSet<Hakkimizda> Hakkimizdas { get; set; }
         public DbSet<Iletisim> Iletisims { get; set; }
         public DbSet<Yorumlar> Yorumlars { get; set; }
+        public DbSet<Gezi> Gezis { get; set; }
+
 
 
     }
