@@ -9,11 +9,12 @@ namespace backpackProj.Controllers
 {
     public class AboutController : Controller
     {
-        
+        Context db = new Context();
+        // GET: About
         public ActionResult Index()
         {
-            
-            return View();
+            var values = db.Hakkimizdas.ToList();
+            return View(values);
         }
     }
 }

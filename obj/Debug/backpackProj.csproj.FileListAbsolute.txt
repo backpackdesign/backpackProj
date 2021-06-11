@@ -168,7 +168,3 @@ C:\Users\Merve\source\repos\backpackProj\backpackProj\bin\Microsoft.Configuratio
 C:\Users\Merve\source\repos\backpackProj\backpackProj\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
 C:\Users\Merve\source\repos\backpackProj\backpackProj\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
 C:\Users\Merve\source\repos\backpackProj\backpackProj\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
-C:\Users\Lenovo\Source\Repos\backpackProj\backpackProj\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
-C:\Users\Lenovo\Source\Repos\backpackProj\backpackProj\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
-C:\Users\Lenovo\Source\Repos\backpackProj\backpackProj\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
-C:\Users\Lenovo\Source\Repos\backpackProj\backpackProj\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml

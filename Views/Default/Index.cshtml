@@ -157,7 +157,7 @@
 </head>
 <body>
 
-  
+    @Html.Action("Partial5", "Default")
     
     <div class"content">
         <div class="wrap">
@@ -166,7 +166,15 @@
                     <h3>Tatil Seyehat Bloğuna Hoşgeldiniz!</h3>
                     <p> Gezip görülen yerlerin fotoğrafını çekip paylaşmak, onlar hakkında bilgi sahibi olmak isteyenler için hazırlamış bir web çalışmasıdır.</p>
                 </div>
-                
+                @Html.Action("Partial1", "Default")
+                <div class="grids">
+                    <div class="box1">
+                        @Html.Action("Partial3", "Default")
+
+                        <div class="padding1">
+                            @Html.Action("Partial4", "Default")
+                            @Html.Action("Partial6", "Default")
+                        </div>
                         <div class="clear"></div>
                     </div>
                 </div>

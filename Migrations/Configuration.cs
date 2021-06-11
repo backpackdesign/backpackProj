@@ -9,7 +9,7 @@
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(backpackProj.Models.classes.Context context)
